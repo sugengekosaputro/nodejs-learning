@@ -21,7 +21,7 @@ const requestHandler = (req, res) => {
 
         return req.on("end", () => {
             const messageText = Buffer.concat(body).toString().split('=')[1];
-            fs.writeFile('message.txt', messageText, () => {
+            fs.writeFile('form_message.txt', messageText, () => {
                 res.statusCode = 302;
                 res.setHeader('Location', '/');
                 return res.end();
