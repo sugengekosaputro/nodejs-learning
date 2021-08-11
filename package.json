@@ -1,0 +1,20 @@
+{
+    "name": "nodejs-learning",
+    "version": "1.0.0",
+    "description": "Mastering Node JS",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sugengekosaputro/nodejs-learning.git"
+    },
+    "author": "Sugeng Eko Saputro",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sugengekosaputro/nodejs-learning/issues"
+    },
+    "homepage": "https://github.com/sugengekosaputro/nodejs-learning#readme"
+}
